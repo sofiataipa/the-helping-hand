@@ -32,8 +32,10 @@ let flock;
 let nBoids = 350;
 let mass = 1;
 
-const MAX_RADIUS = 120;
-const MIN_RADIUS = 30;
+// Circles
+const MAX_RADIUS = 80;
+const MIN_RADIUS = 20;
+const HAND_RADIUS = 40;
 
 let allWeights = [1, 900, 1, 10]; // align, separate, cohesion, flee
 const BAHAVIOUR_TYPE = { 

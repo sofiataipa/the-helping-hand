@@ -96,7 +96,7 @@ function getWrists()
                     noStroke();
                     // paints green
                     fill(0, 255, 200, 70);
-                    circle(_x, _y, 100);
+                    circle(_x, _y, HAND_RADIUS);
                     pop();
                 }
 
@@ -113,7 +113,7 @@ function getWrists()
                     noStroke();
                     // paints red
                     fill(255, 0, 0, 70);
-                    circle(_x, _y, 100);
+                    circle(_x, _y, HAND_RADIUS);
                     pop();
                 } 
             } 
