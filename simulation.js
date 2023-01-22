@@ -33,9 +33,9 @@ let nBoids = 350;
 let mass = 1;
 
 // Circles
-const MAX_RADIUS = 80;
+const MAX_RADIUS = 50;
 const MIN_RADIUS = 20;
-const HAND_RADIUS = 40;
+const HAND_RADIUS = 30;
 
 let allWeights = [1, 900, 1, 10]; // align, separate, cohesion, flee
 const BAHAVIOUR_TYPE = { 
