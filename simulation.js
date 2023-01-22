@@ -11,7 +11,7 @@
 // General
 let cnv;
 let debug = false; // when true, can see the vision field of the boids
-const SIZE = 1; // size of the canvas of the screen (0 to 1)
+const SIZE = 0.7; // size of the canvas of the screen (0 to 1)
 
 // Pose detection
 let detector;

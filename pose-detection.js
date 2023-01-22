@@ -52,7 +52,7 @@ async function initTF()
 async function videoReady() 
 {
     video.size(200, 200);
-    video.hide(); // hides the video from the window
+    //video.hide(); // hides the video from the window
     await getPoses();
 }
 
