@@ -1,0 +1,16 @@
+html, body 
+{
+  margin: 0;
+  padding: 0;
+}
+canvas 
+{
+  display: block;
+}
+
+video 
+{
+  transform: rotateY(180deg);
+  -webkit-transform:rotateY(180deg); /* Safari and Chrome */
+  -moz-transform:rotateY(180deg); /* Firefox */
+}
