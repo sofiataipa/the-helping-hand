@@ -116,7 +116,7 @@ function updateCanvas()
   cnv = createCanvas(windowWidth*SIZE, windowHeight*SIZE);
   var x = (windowWidth - width) / 2;
   var y = (windowHeight - height) / 2;
-  cnv.position(x, y);
+  cnv.position(x, y); 
 }
 
 // each time the window is resized, the canvas is updated
