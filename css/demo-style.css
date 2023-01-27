@@ -1,0 +1,32 @@
+
+/*This is a comment in CSS*/
+
+nav{
+    padding:10px 3%;
+}
+
+/* original aspect ratio width="640" height="360" */
+.responsive-video{
+    position: relative;
+    width: 79%; /* adjust this and the padding-top to change how big it is*/
+    height: 0;
+    padding-top: 45%; /* padding top is in reltation to the width of parent, it preserves aspect ratio*/
+    /* margin: 0 auto; */ /*this would center your video in the section container*/
+}
+.responsive-video iframe{
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+}
+
+/*simple way to handle responsiveness, set a max-width and width 100% so if screen is smaller than 500px, image is 100% of that size */
+#striped-image{
+    width:100%;
+    max-width:500px;
+    height: auto;
+}
+
+
+/* you could add some media queries to make the video size look good on all screen sizes*/
