@@ -8,6 +8,13 @@ canvas
   display: block;
 }
 
+nav
+{
+    padding:10px 3%;
+    letter-spacing: normal;
+    font-family: Verdana, sans-serif;
+}
+
 video 
 {
   transform: rotateY(180deg);
